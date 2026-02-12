@@ -1,9 +1,13 @@
-streamlit==1.31.0
-supabase==2.3.4
-python-dotenv==1.0.1
-pandas==2.2.0
-bcrypt==4.1.2
-Pillow==10.2.0
-easyocr==1.7.1
-opencv-python-headless==4.9.0.80
-plotly==5.18.0
+     1	"""
+     2	Streamlit Cloud 배포를 위한 패키지 목록
+     3	Python 3.9 이상 필요
+     4	OpenAI Vision API 사용 (EasyOCR 제거 - 무거움)
+     5	"""
+     6	
+     7	streamlit==1.31.0
+     8	supabase==2.3.4
+     9	python-dotenv==1.0.1
+    10	pandas==2.2.0
+    11	bcrypt==4.1.2
+    12	plotly==5.18.0
+    13	requests==2.31.0
